@@ -18,6 +18,6 @@ describe("auth", () => {
     const headers: IncomingHttpHeaders = {
       authorization: "ApiKey Bobby",
     };
-    expect(getAPIKey(headers)).toBe("Boby");
+    expect(getAPIKey(headers)).toBe("Bobby");
   });
 });
